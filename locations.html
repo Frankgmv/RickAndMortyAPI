@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RickAndMorty Locations</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a class="links" href="index.html">characters</a>
+            <a class="links" href="locations.html">Locations</a>
+            <a class="links" href="episodes.html">Episodes</a>
+        </nav>
+    </header>
+    <main class="container-main">
+        <div class="container-options">
+            <select class="form-control text-center" onchange="RickAndMortyLocations(this.value)">
+                <script>
+                    for (let i = 1; i <= 7; i++) {
+                        document.write(`<option value="${i}">Pag. ${i}</option>`);
+                    }
+                </script>
+            </select>
+        </div>
+        <div id="resultado" class="grip-container">
+        </div>
+    </main>
+    <script src="./assets/js/locations.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+.grid-container-3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(290px, 100%), 1fr));
+    grid-template-rows: repeat(auto-fill,162px);
+    grid-auto-rows: 162px;
+    grid-gap: 15px;
+    margin: 20px 0px;
+}
+
+ul.card-location li{
+    margin: 10px 0;
+}
+
+.location-name{
+    font-size: 1.4em;
+    color: var(--color-5th);
+}
+

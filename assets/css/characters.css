@@ -1,0 +1,40 @@
+.card-container{
+    border: 3px solid var(--color-5th);
+    background-color: var(--color-1st);
+    border-radius: 1pc;
+    border-top-right-radius: 0pc;
+    color: white;
+}
+
+.card-container:hover{
+    transform: rotate(1.4deg);
+    box-shadow: 2px 2px 5px .5px yellow;
+    transition: all .5s;
+
+}
+
+.card-img img{
+    border-top-left-radius: .84pc;
+    border-top-right-radius: 0pc;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    max-height: 200px;
+    min-height: 300px;
+}
+
+.card-info{
+    width: 95%;
+    margin: 3px auto;
+    text-align: center;
+}
+.info-name{
+    font-size: 2em;
+    color: aqua;
+}
+.info-status,.info-species,.info-gender{
+    display: inline-block;
+    margin: 5px 5px ;
+    font-size: 1.1em;
+}
+

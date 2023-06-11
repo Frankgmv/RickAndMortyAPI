@@ -1,0 +1,15 @@
+ul.card-info{
+    width: 90%;
+    list-style-type: none;
+        font-size: 1.3em;
+}
+
+ul.card-info li[class^="ep"]{
+    margin: 5px 0px;
+}
+
+.episode-name{
+    font-size: 1.5em;
+    color: var(--color-5th);
+    margin: 10px auto;
+}

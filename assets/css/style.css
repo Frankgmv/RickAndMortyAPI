@@ -1,0 +1,33 @@
+@import url(general.css);
+@import url(characters.css);
+@import url(episodes.css);
+@import url(locations.css);
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+html{
+    font-size: 11px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-1st:#000111;
+    --color-3th:#0059ff;
+    --color-2nd:yellowgreen;
+    --color-4th:#f05050;
+    --color-5th:aqua;
+
+    --bg-img:url("https://images.unsplash.com/photo-1475274047050-1d0c0975c63e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80");
+    --bg-portal:url("https://hackaday.com/wp-content/uploads/2018/08/portal.png?w=800");
+}
+
+
+.episode-created::before, .location-created::before{
+    color: var(--color-5th);
+    content: "Created ";
+}
+
